@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/title_text"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#1357f6"
+            android:gravity="center"
+            android:text="未知"
+            android:textColor="#fff"
+            android:textSize="20sp"></TextView>
+
+        <TextView
+            android:id="@+id/cityCode_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="城市ID:"
+            android:textSize="20sp"
+            android:layout_marginTop="180dp"></TextView>
+
+        <TextView
+            android:id="@+id/date_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="日期:"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"></TextView>
+
+
+        <TextView
+            android:id="@+id/updateTime_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="更新时间:"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"></TextView>
+
+
+        <TextView
+            android:id="@+id/temperature_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="温度:"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"></TextView>
+
+        <TextView
+            android:id="@+id/humidity_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="湿度:"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"></TextView>
+
+        <TextView
+            android:id="@+id/pm25_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="pm2.5:"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"></TextView>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
